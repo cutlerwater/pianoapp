@@ -188,9 +188,18 @@
 	z-index: 999;
 }
 
+.floating-btn:hover {
+	background-color: #ffffff;
+	color: #001F61;
+}
+
+.floating-btn:focus {
+	outline: none;
+}
+
 .floating-btn2 {
 	border-radius: 26.5px;
-	background-color: #30f109;
+	background-color: #001F61;
 	border: 1px solid #001F61;
 	box-shadow: 0 16px 22px -17px #03153B;
 	color: #fff;
@@ -198,12 +207,13 @@
 	font-size: 16px;
 	line-height: 20px;
 	padding: 12px 20px;
-  text-decoration: none;
 	position: fixed;
 	bottom: 20px;
 	right: 200px;
 	z-index: 999;
 }
+
+
 
 .floating-btn:hover {
 	background-color: #ffffff;
