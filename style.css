@@ -35,6 +35,8 @@
   
   .piano {
     display: flex;
+    margin-left: 200px;
+    margin-top: 150px;
   }
   
   .key {
